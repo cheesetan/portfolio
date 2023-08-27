@@ -1,22 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import TypeWriterEffect from "react-typewriter-effect";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 style={{margin: 0}}>Hello! I'm Tristan Chay!</h1>
+        <TypeWriterEffect
+                  textStyle={{
+                    fontSize: "32px",
+                    color: "#9BA4B5",
+                  }}
+                  cursorColor="#E1E3FF"
+                  text={"i'm a mobile developer :)"}
+                  typeSpeed={50}
+                />     
       </header>
     </div>
   );
