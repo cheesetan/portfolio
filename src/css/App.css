@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+.App {
+  text-align: center;
+  font-family: "Poppins";
+  background-color: #282c34;
+  color: #fff;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.introSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+main {
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3), -3px -5px 5px rgba(0, 0, 0, 0.3);
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 50px;
+  overflow: hidden;
+}
+
+header, footer {
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+footer {
+  margin-top: 50px;
+  height: 10vh;
+  box-shadow: -3px -5px 5px rgba(0, 0, 0, 0.3);
+}

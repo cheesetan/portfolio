@@ -1,0 +1,12 @@
+.profileURL {
+    width: 36px;
+    height: 36px;
+}
+
+.animate__delay-0point25s {
+    animation-delay: 0.25s;
+}
+
+.animate__delay-0point5s {
+    animation-delay: 0.5s;
+}
