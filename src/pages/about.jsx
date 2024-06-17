@@ -9,6 +9,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+import image from "../assets/homepage.jpg"
 
 const About = () => {
 	useEffect(() => {
@@ -47,7 +48,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src={image}
 											alt="about"
 											className="about-image"
 										/>
