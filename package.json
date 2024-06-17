@@ -1,12 +1,12 @@
 {
 	"name": "portfolio",
 	"version": "1.0.0",
-	"homepage": "http://tristanchay.com/",
+	"homepage": "https://tristanchay.com",
 	"description": "My portfolio website.",
 	"author": {
 		"name": "Tristan Chay",
 		"email": "tristanchay123@gmail.com",
-		"url": "https://cheesetan.com"
+		"url": "https://tristanchay.com"
 	},
 	"license": "MIT",
 	"private": true,
