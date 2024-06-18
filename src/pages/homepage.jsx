@@ -11,7 +11,7 @@ import {
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
-import Works from "../components/homepage/works";
+import Works from "../components/homepage/homepageCard";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
@@ -20,6 +20,9 @@ import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 import image from "../assets/homepage.jpg"
+import HomepageCard from "../components/homepage/homepageCard";
+
+import { faBriefcase, faCertificate } from "@fortawesome/free-solid-svg-icons";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -143,7 +146,10 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
-							<div style={{marginBottom: "-15px"}} className="subtitle">
+							<div
+								style={{ marginBottom: "-15px" }}
+								className="subtitle"
+							>
 								Notable Apps
 							</div>
 							<AllProjects projects={INFO.speicalProjects} />
@@ -173,9 +179,22 @@ const Homepage = () => {
 										</div>
 									))}
 							</div>
+							<div style={{ flexDirection: "column" }}>
+								<div className="homepage-works">
+									<HomepageCard
+										title={"Experiences"}
+										icon={faBriefcase}
+										data={INFO.experiences}
+									/>
+								</div>
 
-							<div className="homepage-works">
-								<Works />
+								<div className="homepage-works">
+									<HomepageCard
+										title={"Certifications"}
+										icon={faCertificate}
+										data={INFO.certifications}
+									/>
+								</div>
 							</div>
 						</div>
 
