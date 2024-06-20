@@ -147,7 +147,7 @@ const Homepage = () => {
 
 						<div className="homepage-projects">
 							<div
-								style={{ marginBottom: "-15px" }}
+								style={{ marginBottom: "15px" }}
 								className="subtitle"
 							>
 								Notable Apps
@@ -185,6 +185,7 @@ const Homepage = () => {
 										title={"Experiences"}
 										icon={faBriefcase}
 										data={INFO.experiences}
+										links={false}
 									/>
 								</div>
 
@@ -193,6 +194,7 @@ const Homepage = () => {
 										title={"Certifications"}
 										icon={faCertificate}
 										data={INFO.certifications}
+										links={true}
 									/>
 								</div>
 							</div>

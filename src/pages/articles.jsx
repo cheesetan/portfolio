@@ -43,20 +43,24 @@ const Articles = () => {
 
 						<div className="articles-container">
 							<div className="articles-wrapper">
-								{myArticles.map((article, index) => (
-									<div
-										className="articles-article"
-										key={(index + 1).toString()}
-									>
-										<Article
+							{myArticles
+									.slice(0, 5)
+									.map((article, index) => (
+										<div
+											className="homepage-article"
 											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
+										>
+											<Article
+												key={(index + 1).toString()}
+												date={article().date}
+												title={article().title}
+												description={
+													article().description
+												}
+												link={article().link}
+											/>
+										</div>
+									))}
 							</div>
 						</div>
 					</div>

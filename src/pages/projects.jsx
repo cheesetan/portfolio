@@ -32,11 +32,11 @@ const Projects = () => {
 				<NavBar active="projects" />
 				<div className="content-wrapper">
 					<div className="projects-container">
-						<div className="title projects-title">
+						<div className="title">
 							Overview of my Projects
 						</div>
 
-						<div className="description-less-margin projects-subtitle">
+						<div className="description-less-margin">
 							I've worked on a variety of projects, some alone,
 							and some with my peers. Many of these projects are
 							open-source and available for others to explore on
@@ -44,6 +44,9 @@ const Projects = () => {
 						</div>
 
 						<div className="projects-list">
+							<div className="subtitle projects-year-header">
+								2022
+							</div>
 							<AllProjects projects={INFO.projects} />
 						</div>
 					</div>
