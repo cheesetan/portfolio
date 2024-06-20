@@ -32,9 +32,7 @@ const Projects = () => {
 				<NavBar active="projects" />
 				<div className="content-wrapper">
 					<div className="projects-container">
-						<div className="title">
-							Overview of my Projects
-						</div>
+						<div className="title">Overview of my Projects</div>
 
 						<div className="description-less-margin">
 							I've worked on a variety of projects, some alone,
@@ -44,10 +42,17 @@ const Projects = () => {
 						</div>
 
 						<div className="projects-list">
-							<div className="subtitle projects-year-header">
-								2022
+							<div className="subtitle projects-section-header">
+								Apps and Projects
 							</div>
 							<AllProjects projects={INFO.projects} />
+						</div>
+
+						<div className="projects-list">
+							<div className="subtitle projects-section-header">
+								Packages and Libraries
+							</div>
+							<AllProjects projects={INFO.packages} />
 						</div>
 					</div>
 					{/* <div className="page-footer">

@@ -89,12 +89,30 @@ const INFO = {
 	projects: [
 
 		{
+			title: "BoxSort",
+			description:
+				"A friend of mine contacted me at 10pm and asked me to create an app for him that lets him sort his item in boxes and keep track of where they are. I finished it by midnight.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "View Project",
+			link: "https://github.com/cheesetan/boxsort",
+		},
+
+		{
 			title: "ExiSST",
 			description:
 				"ExiSST is a secure, private, and verifiable way of taking attendance through the use of a refreshing QR Code and Google Sheets integration.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
 			linkText: "View Project",
 			link: "https://github.com/attendinc-group/exisst",
+		},
+
+		{
+			title: "Food Friend",
+			description:
+				"Food Friend was developed for my Secondary 2 ICT Project. Food Friend aims to cut down on food wastage by allowing users to post about food items nearing expiry on the app to give away to others whom may need it more.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "Github not available",
+			link: "",
 		},
 
 		{
@@ -116,6 +134,24 @@ const INFO = {
 		},
 
 		{
+			title: "HandsOff",
+			description:
+				"Tired of people always taking their chance to snoop around your Mac when you leave unattended for 5 seconds? Fret not, HandsOff uses Bluetooth to remotely connect to your Mac from your iPhone, allowing you to lock it with the tap of a button.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "View on Project",
+			link: "https://github.com/cheesetan/handsoff",
+		},
+
+		{
+			title: "KKH CICU (WIP)",
+			description:
+				"KKH CICU aims to streamline the workflow for Residents in KKH by allowing them to view medical documents and perform dosage calculations right on their devices. This app is created in collaboration with KKH.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "View Project",
+			link: "https://github.com/KaiTheRedNinja/KKH-CICU",
+		},
+
+		{
 			title: "MathX.",
 			description:
 				"MathX features a useful tools such as calculators with special functions to help you quickly and easily calculate and solve your mathematical needs.",
@@ -125,12 +161,39 @@ const INFO = {
 		},
 
 		{
+			title: "NotionBar",
+			description:
+				"I got tired of having to open up Notion to update my class's notice board everday, so I made a menu bar app that lets me do that straight from my Desktop.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "Github not available",
+			link: "",
+		},
+
+		{
 			title: "Pawtfolio",
 			description:
 				"Pawtfolio aims to be able to guide students on their journey of creating and making their portfolios.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
 			linkText: "View on App Store",
 			link: "https://apps.apple.com/us/app/pawtfolio/id6473139075",
+		},
+
+		{
+			title: "PenTracker",
+			description:
+				"PenTracker is like a drawing pad - but without the pad. PenTracker makes use of your webcam and a Machine Learning model to track the tip of your pen, and moves your cursor accordingly.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Project",
+			link: "https://github.com/KaiTheRedNinja/PenTracker",
+		},
+
+		{
+			title: "Recall",
+			description:
+				"Recall was built for the 2022 3M Innofest Challenge and won 1st place. Recall is an app that allows caretakers to remotely set reminders for people with dementia to remind them of their daily necessities and tasks to do, allowing people with dementia to live more independently without the need of people always around them.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "View Project",
+			link: "https://github.com/cheesetan/recall",
 		},
 
 		{
@@ -149,6 +212,27 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/cheesetan/virtual-photobooth",
+		},
+	],
+
+	packages: [
+
+		{
+			title: "SwiftPersistence",
+			description:
+				"SwiftPesistence (@Persistent) is a property wrapper type that can read and write a persisted value saved in FileManager.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "View Project",
+			link: "https://github.com/cheesetan/SwiftPersistence",
+		},
+
+		{
+			title: "GSheetsSwift",
+			description:
+				"GSheetsSwift is a Swift library for interacting with the Google Sheets API.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "View Project",
+			link: "https://github.com/KaiTheRedNinja/GSheetsSwift",
 		},
 	],
 
