@@ -34,7 +34,7 @@ const Projects = () => {
 					<div className="projects-container">
 						<div className="title">Overview of my Projects</div>
 
-						<div className="description-less-margin">
+						<div className="description-less-margin projects-description">
 							I've worked on a variety of projects, some alone,
 							and some with my peers. Many of these projects are
 							open-source and available for others to explore on
