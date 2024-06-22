@@ -25,10 +25,7 @@ const HomepageCard = (props) => {
 										{experience.title}
 									</div>
 									<div className="work-subtitle">
-										{experience.subtitle}
-									</div>
-									<div className="work-duration">
-										{experience.timeline}
+										{experience.subtitle} | <span className="work-duration">{experience.timeline}</span>
 									</div>
 								</div>
 							</a>

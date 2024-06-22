@@ -41,10 +41,6 @@ a:active { text-decoration: none; }
 }
 
 .work-duration {
-	position: absolute;
-	width: 350px;
 	font-size: 12px;
-	padding-top: 20px;
-	text-align: right;
 	color: var(--tertiary-color);
 }

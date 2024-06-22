@@ -31,6 +31,10 @@
     margin: 10px;
 }
 
+.section-header {
+	margin-top: 30px;
+}
+
 .about-right-side {
 	flex-basis: 900px;
 }

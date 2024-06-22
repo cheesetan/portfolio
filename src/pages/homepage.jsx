@@ -150,7 +150,7 @@ const Homepage = () => {
 								style={{ marginBottom: "15px" }}
 								className="subtitle"
 							>
-								Notable Apps
+								Notable Apps I've Worked On
 							</div>
 							<AllProjects projects={INFO.speicalProjects} />
 						</div>
@@ -179,24 +179,25 @@ const Homepage = () => {
 										</div>
 									))}
 							</div>
-							<div style={{ flexDirection: "column" }}>
-								<div className="homepage-works">
+							{/* <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}> */}
+							<div>
+								<span className="homepage-works">
 									<HomepageCard
 										title={"Experiences"}
 										icon={faBriefcase}
 										data={INFO.experiences}
 										links={false}
 									/>
-								</div>
-
-								<div className="homepage-works">
+								</span>
+								
+								<span className="homepage-works">
 									<HomepageCard
 										title={"Certifications"}
 										icon={faCertificate}
 										data={INFO.certifications}
 										links={true}
 									/>
-								</div>
+								</span>
 							</div>
 						</div>
 

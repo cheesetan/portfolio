@@ -10,7 +10,6 @@ import SEO from "../data/seo";
 
 import "./styles/achievements.css";
 import image from "../assets/homepage.jpg"
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 const Achievements = () => {
 	useEffect(() => {
@@ -42,9 +41,16 @@ const Achievements = () => {
 								attained and Competitions that I have
 								participated in.
 							</div>
-							<div className="card-item">
-								{/* here */}
+
+							<div className="subtitle section-header">
+								Awards
 							</div>
+							<div className="card-item">{/* here */}</div>
+
+							<div className="subtitle section-header">
+								Competitions
+							</div>
+							<div className="card-item">{/* here */}</div>
 						</div>
 					</div>
 					{/* <div className="page-footer">

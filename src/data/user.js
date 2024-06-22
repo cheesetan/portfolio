@@ -58,32 +58,32 @@ const INFO = {
 			link: "https://apps.apple.com/us/app/growcalth/id6456388202",
 		},
 
-		{
-			title: "MathX.",
-			description:
-				"MathX features a useful tools such as calculators with special functions to help you quickly and easily calculate and solve your mathematical needs.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
-			linkText: "View on App Store",
-			link: "https://apps.apple.com/us/app/mathx/id1434950136",
-		},
+		// {
+		// 	title: "MathX.",
+		// 	description:
+		// 		"MathX features a useful tools such as calculators with special functions to help you quickly and easily calculate and solve your mathematical needs.",
+		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+		// 	linkText: "View on App Store",
+		// 	link: "https://apps.apple.com/us/app/mathx/id1434950136",
+		// },
 
-		{
-			title: "Pawtfolio",
-			description:
-				"Pawtfolio aims to be able to guide students on their journey of creating and making their portfolios.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
-			linkText: "View on App Store",
-			link: "https://apps.apple.com/us/app/pawtfolio/id6473139075",
-		},
+		// {
+		// 	title: "Pawtfolio",
+		// 	description:
+		// 		"Pawtfolio aims to be able to guide students on their journey of creating and making their portfolios.",
+		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+		// 	linkText: "View on App Store",
+		// 	link: "https://apps.apple.com/us/app/pawtfolio/id6473139075",
+		// },
 
-		{
-			title: "SST Open House 2024",
-			description:
-				"The SST Open House 2024 app allows visitors to explore the campus with ease, access detailed event information, and even compete for exciting prizes right within the app.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
-			linkText: "View on App Store",
-			link: "https://apps.apple.com/us/app/sst-open-house-2024/id6479939416",
-		},
+		// {
+		// 	title: "SST Open House 2024",
+		// 	description:
+		// 		"The SST Open House 2024 app allows visitors to explore the campus with ease, access detailed event information, and even compete for exciting prizes right within the app.",
+		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+		// 	linkText: "View on App Store",
+		// 	link: "https://apps.apple.com/us/app/sst-open-house-2024/id6479939416",
+		// },
 	],
 
 	projects: [
@@ -290,7 +290,7 @@ const INFO = {
 		{
 			imgsrc: "https://banner2.cleanpng.com/20180724/trx/kisspng-apple-logo-business-desktop-wallpaper-huawei-logo-5b56f55dc08410.4396015315324255657886.jpg",
 			title: "Apple",
-			subtitle: "Apple Teacher: Swift Playgrounds",
+			subtitle: "Apple Certified Teacher: Swift Playgrounds",
 			timeline: "April 2024",
 			link: "https://education.apple.com/learning-center/"
 		},
