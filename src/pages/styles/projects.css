@@ -22,8 +22,18 @@
 	padding-top: 120px;
 }
 
+.projects-description {
+	width: 85% !important;
+}
+
 .projects-section-header {
 	margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+	.projects-description {
+		width: 100% !important;
+	}
 }
 
 @media (max-width: 600px) {

@@ -21,6 +21,10 @@
 	padding-top: 120px;
 }
 
+.achievements-description {
+	width: 85% !important;
+}
+
 .achievements-main {
 	display: flex;
     flex-direction: row;
@@ -113,6 +117,10 @@
 	.about-socials-mobile {
 		padding-top: 30px;
 		display: flex;
+	}
+
+	.achievements-description {
+		width: 100% !important;
 	}
 }
 

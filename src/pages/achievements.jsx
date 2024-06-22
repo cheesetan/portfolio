@@ -36,7 +36,7 @@ const Achievements = () => {
 						<div className="achievements-main">
 							<div className="title">Achievements</div>
 
-							<div className="description-less-margin">
+							<div className="description-less-margin achievements-description">
 								These are some of the Awards that I have
 								attained and Competitions that I have
 								participated in.
