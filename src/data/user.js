@@ -15,7 +15,7 @@ const INFO = {
 		title: "Hey, I'm Tristan Chay!",
 		subtitle: "Student Developer",
 		description:
-			"I'm a 15 year old developer from Singapore. I help to mentor juniors at Swift Accelerator Programme, guiding them in their iOS App Development journey. Additionally, I am also one of 350 winners worldwide in Apple's WWDC23 Swift Student Challenge, and I am Apple App Development with Swift Associate certified too.",
+			"I'm a 15 year old developer from Singapore. I help to mentor juniors at Swift Accelerator Programme, guiding them in their iOS App Development journey. Additionally, I am also one of 350 winners worldwide in Apple's WWDC23 Swift Student Challenge, as well as Apple App Development with Swift certified.",
 	},
 
 	about: {
