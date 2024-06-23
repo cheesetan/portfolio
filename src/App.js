@@ -41,6 +41,8 @@ function App() {
 						element={
 							<ReadArticle
 								title={article().title}
+								style={article().style}
+								body={article().body}
 								content={article().content}
 							/>
 						}

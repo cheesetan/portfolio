@@ -16,12 +16,16 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 let ArticleStyle = styled.div``;
 
 const ReadArticle = (props) => {
-    const { date, title, content } = props;
+    const { title, style, body, content } = props;
 	const navigate = useNavigate();
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
+
+	ArticleStyle = styled.div`
+		${style}
+	`;
 
 	return (
 		<React.Fragment>
@@ -54,7 +58,10 @@ const ReadArticle = (props) => {
 								{title}
 							</div>
 
-							<div className="read-article-body">{content}</div>
+							{/* <div className="read-article-body">{content}</div> */}
+							<div className="read-article-body">
+								<ArticleStyle>{body}</ArticleStyle>
+							</div>
 						</div>
 					</div>
 					{/* <div className="page-footer">
