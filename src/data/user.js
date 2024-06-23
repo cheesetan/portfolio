@@ -1,3 +1,7 @@
+import labbimg from "../assets/labb-cover.jpeg"
+import bbsimg from "../assets/bbs-cover.jpeg"
+import sfimg from "../assets/sf-cover.jpeg"
+
 const INFO = {
 	main: {
 		title: "Tristan Chay",
@@ -28,23 +32,27 @@ const INFO = {
 		{
 			title: "Learning Alliance Beyond Borders (LABB)",
 			country: "Ho Chi Minh City, Vietnam (Virtual)",
-			description: "LABB is a virtual programme where we got to meet with students from all around the world to collaborate on a project together. For my group, we got to meet with people from Vietnam, where we worked on a project to advocate on climate change.",
+			description:
+				"LABB is a virtual programme where we got to meet with students from all around the world to collaborate on a project together. For my group, we got to meet with people from Vietnam, where we worked on a project to advocate on climate change.",
+			img: labbimg
 		},
 
 		{
 			title: "SST x BBS IDP International Exchange Programme (IEP)",
 			country: "Jakarta, Indonesia",
-			description: "The SST x BBS IDP IEP is a exchange programme only for students part of the Integrated Diploma Programme (IDP) in SST. Through this IEP, we got to meet and work with our Indonesian counterparts on a project to monitor carbon dioxide levels.",
-			link: "https://github.com/attendinc-group/exisst",
+			description:
+				"The SST x BBS IDP IEP is a exchange programme only for students part of the Integrated Diploma Programme (IDP) in SST. Through this IEP, we got to meet and work with our Indonesian counterparts on a project to monitor carbon dioxide levels.",
+			img: bbsimg
 		},
 
 		{
 			title: "#ProjectSF",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
 			country: "San Francisco, United States of America",
-			description: "#ProjectSF is a 10 day 8 night learning journey to San Francisco, where we got to learn more about Silicon Valley from industry partners and mentors who work there, and got a feel for what it's like to work in San Francisco. ",
-			link: "https://github.com/attendinc-group/exisst",
-		}
+			description:
+				"#ProjectSF is a 10 day 8 night learning journey to San Francisco, where we got to learn more about Silicon Valley from industry partners and mentors who work there, and got a feel for what it's like to work in San Francisco. ",
+			img: sfimg
+		},
 	],
 
 	speicalProjects: [
@@ -104,7 +112,6 @@ const INFO = {
 	],
 
 	projects: [
-
 		{
 			title: "BoxSort",
 			description:
@@ -242,7 +249,6 @@ const INFO = {
 	],
 
 	packages: [
-
 		{
 			title: "SwiftPersistence",
 			description:
@@ -268,7 +274,7 @@ const INFO = {
 			title: "HMGICS",
 			subtitle: "Student Work Attachment",
 			timeline: "December 2023",
-			link: "https://www.hyundai.com/sg/home"
+			link: "https://www.hyundai.com/sg/home",
 		},
 
 		{
@@ -276,7 +282,7 @@ const INFO = {
 			title: "SST Incorporated",
 			subtitle: "iOS Taskforce",
 			timeline: "June 2023 - March 2024",
-			link: "https://www.sstinc.org/"
+			link: "https://www.sstinc.org/",
 		},
 
 		{
@@ -284,7 +290,7 @@ const INFO = {
 			title: "Swift Accelerator Programme",
 			subtitle: "Mentor",
 			timeline: "May 2024 - Present",
-			link: "https://swiftinsg.org/"
+			link: "https://swiftinsg.org/",
 		},
 	],
 
@@ -294,7 +300,7 @@ const INFO = {
 			title: "Cisco",
 			subtitle: "Cisco Cybersecurity Essentials",
 			timeline: "June 2023",
-			link: "https://www.credly.com/badges/6bd0b6c9-86d8-4e53-8560-3518fe976559/linked_in_profile"
+			link: "https://www.credly.com/badges/6bd0b6c9-86d8-4e53-8560-3518fe976559/linked_in_profile",
 		},
 
 		{
@@ -302,7 +308,7 @@ const INFO = {
 			title: "AI Singapore",
 			subtitle: "Literacy in AI",
 			timeline: "July 2023",
-			link: "https://learn.aisingapore.org/certificate-verification/815F3C6580-7EF3D276C5-138D5B024/"
+			link: "https://learn.aisingapore.org/certificate-verification/815F3C6580-7EF3D276C5-138D5B024/",
 		},
 
 		{
@@ -310,7 +316,7 @@ const INFO = {
 			title: "Apple",
 			subtitle: "Apple Certified Teacher",
 			timeline: "April 2024",
-			link: "https://education.apple.com/learning-center/"
+			link: "https://education.apple.com/learning-center/",
 		},
 
 		{
@@ -318,7 +324,7 @@ const INFO = {
 			title: "Apple",
 			subtitle: "Apple Certified Teacher: Swift Playgrounds",
 			timeline: "April 2024",
-			link: "https://education.apple.com/learning-center/"
+			link: "https://education.apple.com/learning-center/",
 		},
 
 		{
@@ -326,9 +332,9 @@ const INFO = {
 			title: "Apple",
 			subtitle: "App Development with Swift Associate",
 			timeline: "May 2024",
-			link: "https://www.credly.com/badges/14d227d1-8612-496f-951d-6811024a7851/"
+			link: "https://www.credly.com/badges/14d227d1-8612-496f-951d-6811024a7851/",
 		},
-	]
+	],
 };
 
 export default INFO;

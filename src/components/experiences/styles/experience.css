@@ -2,72 +2,75 @@
 
 @import "../../../data/styles.css";
 
-.project {
+.experience-item {
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
 	height: 100%;
 }
 
-.project a {
+.experience-item a {
 	text-decoration: none;
 }
 
-.project:hover {
+.experience-item:hover {
 	background: #fafafa;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
 
-.project:hover .project-link {
+.experience-item:hover .experience-item-link {
 	color: var(--link-color);
 	transition: color 0.3s ease-in-out;
 }
 
-.project-container {
+.experience-item-container {
 	padding: 30px;
 }
 
-.project-country {
+.experience-item-country {
 	color: var(--secondary-color);
 	font-size: 12px;
-	margin-top: -5px;
-	margin-bottom: 0.8em;
+	margin-bottom: 1em;
 }
 
-.project-logo {
+.experience-item-img {
+	max-width: 100%;
+	border-radius: 20px;
+}
+
+.experience-item-logo {
 	width: 30px;
 }
 
-.project-logo img {
+.experience-item-logo img {
 	width: 100%;
 }
 
-.project-title {
+.experience-item-title {
 	color: var(--primary-color);
 	font-size: 16px;
 	padding-top: 15px;
 	font-weight: 700;
 }
 
-.project-description {
+.experience-item-description {
 	color: var(--secondary-color);
 }
 
-.project-link {
+.experience-item-link {
 	display: flex;
 	align-items: center;
 	color: var(--secondary-color);
 	font-size: 12px;
-	padding-top: 20px;
 }
 
-.project-link-icon {
+.experience-item-link-icon {
 	padding-left: 5px;
 	font-size: 13px;
 }
 
-.project-link-text {
+.experience-item-link-text {
 	padding-left: 20px;
 	font-weight: 700;
 }

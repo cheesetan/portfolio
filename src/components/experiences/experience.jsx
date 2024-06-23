@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import classphoto from "../../assets/2023class.jpg"
 
 import "./styles/experience.css";
 
@@ -10,17 +11,18 @@ const Experience = (props) => {
 
 	return (
 		<React.Fragment>
-			<div className="project">
+			<div className="experience-item">
 				<Link to={experience.link}>
-					<div className="project-container">
-						<div className="project-title">{experience.title}</div>
-						<div className="project-country">
+					<div className="experience-item-container">
+						<img src={experience.img} className="experience-item-img" alt="photo" />
+						<div className="experience-item-title">{experience.title}</div>
+						<div className="experience-item-country">
 							{experience.country}
 						</div>
-						<div className="project-description">
+						{/* <div className="experience-item-description">
 							{experience.description}
-						</div>
-						<div className="project-link">
+						</div> */}
+						<div className="experience-item-link">
 							<div>
 								Learn More{" "}
 								<FontAwesomeIcon
