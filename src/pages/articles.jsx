@@ -44,7 +44,6 @@ const Articles = () => {
 						<div className="articles-container">
 							<div className="articles-wrapper">
 							{myArticles
-									.slice(0, 5)
 									.map((article, index) => (
 										<div
 											className="homepage-article"

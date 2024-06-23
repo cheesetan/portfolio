@@ -28,6 +28,15 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
+								<Link to="/achievements">Experiences</Link>
+							</li>
+							<li
+								className={
+									active === "achievements"
+										? "nav-item active"
+										: "nav-item"
+								}
+							>
 								<Link to="/achievements">Achievements</Link>
 							</li>
 							<li
@@ -39,7 +48,7 @@ const NavBar = (props) => {
 							>
 								<Link to="/projects">Projects</Link>
 							</li>
-							{/* <li
+							<li
 								className={
 									active === "articles"
 										? "nav-item active"
@@ -47,7 +56,7 @@ const NavBar = (props) => {
 								}
 							>
 								<Link to="/articles">Featured Articles</Link>
-							</li> */}
+							</li>
 						</ul>
 					</div>
 				</nav>
