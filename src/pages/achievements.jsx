@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import Socials from "../components/about/socials";
+import Socials from "../components/common/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -21,7 +21,7 @@ const Achievements = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`About | ${INFO.main.title}`}</title>
+				<title>{`${INFO.main.title} | Achievements`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"

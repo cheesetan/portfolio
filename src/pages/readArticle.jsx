@@ -30,7 +30,7 @@ const ReadArticle = (props) => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`${title} | ${INFO.main.title}`}</title>
+				<title>{`${INFO.main.title} | ${title}`}</title>
 				{/* <meta name="description" content={article().description} />
 				<meta name="keywords" content={article().keywords.join(", ")} /> */}
 			</Helmet>

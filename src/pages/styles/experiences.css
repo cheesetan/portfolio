@@ -1,10 +1,10 @@
-.about-logo-container {
+.experiences-logo-container {
 	display: flex;
 	justify-content: left;
 	padding-top: 25px;
 }
 
-.about-logo {
+.experiences-logo {
 	display: flex;
 	position: fixed;
 	border: 1px solid white;
@@ -13,7 +13,7 @@
 	top: 4vh;
 }
 
-.about-container {
+.experiences-container {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -21,35 +21,38 @@
 	padding-top: 120px;
 }
 
-.about-main {
+.experiences-main {
 	display: flex;
 }
 
-.about-right-side {
+.experiences-right-side {
 	flex-basis: 900px;
 }
 
-.about-title {
+.experiences-title {
 	width: 100% !important;
 }
 
-.about-subtitle {
+.experiences-subtitle {
 	white-space: pre-line;
-	width: 80% !important;
-	margin-bottom: 100px;
+	width: 90% !important;
 }
 
-.about-left-side {
+.experiences-left-side {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 300px;
 }
 
-.about-image-container {
+.experiences-bottom-section {
+	width: 100%;
+}
+
+.experiences-image-container {
 	width: 370px;
 }
 
-.about-image-wrapper {
+.experiences-image-wrapper {
 	display: inline-block;
 	overflow: hidden;
 	width: 100%;
@@ -57,63 +60,71 @@
 	transform: rotate(3deg);
 }
 
-.about-image-wrapper img {
+.experiences-image-wrapper img {
 	display: block;
 	width: 100%;
 }
 
-.about-socials {
+.experiences-socials {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
-.about-socials-mobile {
+.experiences-socials-mobile {
 	display: none;
 }
 
+.section-header {
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+.global-experiences-content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	padding-bottom: 30px;
+}
+
 @media (max-width: 1024px) {
-	.about-logo {
+	.experiences-logo {
 		z-index: 100;
 	}
 
-	.about-main {
+	.experiences-main {
 		flex-direction: column;
 	}
 
-	.about-subtitle {
-		padding-top: 20px !important;
-	}
-
-	.about-left-side {
+	.experiences-left-side {
 		flex-basis: 100%;
 		order: 1;
 	}
 
-	.about-right-side {
+	.experiences-right-side {
 		flex-basis: 100%;
 		order: 2;
 	}
 
-	.about-image-container {
+	.experiences-image-container {
 		padding-bottom: 40px;
 	}
 
-	.about-socials {
+	.experiences-socials {
 		display: none;
 	}
 
-	.about-socials-mobile {
+	.experiences-socials-mobile {
 		padding-top: 30px;
 		display: flex;
 	}
 }
 
 @media (max-width: 600px) {
-	.about-container {
+	.experiences-container {
 		padding-top: 120px;
 	}
 
-	.about-image-container {
+	.experiences-image-container {
 		width: 80%;
 	}
 }

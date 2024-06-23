@@ -21,7 +21,7 @@ const Articles = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Articles | ${INFO.main.title}`}</title>
+				<title>{`${INFO.main.title} | Featured Articles`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"

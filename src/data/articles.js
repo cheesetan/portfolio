@@ -5,7 +5,7 @@ import classimg from "../assets/2023class.jpg"
 function sst_incorporated() {
 	return {
 		title: "SST Incorporated",
-		previousPathname: "/personal-development/",
+		previousPathname: "/experiences/",
 		style: `
 			.top-image {
 				width: 100%;
@@ -93,7 +93,7 @@ function sst_incorporated() {
 function class_chairperson() {
 	return {
 		title: "2023 Class Chairperson",
-		previousPathname: "/personal-development/",
+		previousPathname: "/experiences/",
 		style: `
 			.top-image {
 				width: 100%;

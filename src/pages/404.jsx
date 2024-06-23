@@ -11,7 +11,7 @@ import "./styles/404.css";
 
 const Notfound = () => {
 	useEffect(() => {
-		document.title = `404 | ${INFO.main.title}`;
+		document.title = `${INFO.main.title} | 404 Page Not Found`;
 	}, []);
 
 	function getCurrentDate(separator = "-") {
@@ -41,7 +41,8 @@ const Notfound = () => {
 								not found on this server. */}
 							</div>
 							<a href="/" className="not-found-link">
-								Head back to reality ({getCurrentDate()})
+								{/* Head back to reality ({getCurrentDate()}) */}
+								Head back to reality
 							</a>
 						</div>
 					</div>

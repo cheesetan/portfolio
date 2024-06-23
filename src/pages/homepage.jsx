@@ -185,7 +185,7 @@ const Homepage = () => {
 									<HomepageCard
 										title={"Experiences"}
 										icon={faBriefcase}
-										data={INFO.experiences}
+										data={INFO.work}
 										links={false}
 									/>
 								</span>

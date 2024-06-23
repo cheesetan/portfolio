@@ -12,7 +12,7 @@ import articles, { getPathnameFromArticleTitle } from "./data/articles";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
-import PersonalDevelopment from "./pages/personalDevelopment";
+import Experiences from "./pages/experiences";
 
 function App() {
 	useEffect(() => {
@@ -26,8 +26,8 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route
-					path="/personal-development"
-					element={<PersonalDevelopment />}
+					path="/experiences"
+					element={<Experiences />}
 				/>
 				<Route path="/achievements" element={<Achievements />} />
 				<Route path="/projects" element={<Projects />} />
