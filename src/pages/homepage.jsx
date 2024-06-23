@@ -97,6 +97,39 @@ const Homepage = () => {
 								<div className="description homepage-description">
 									{INFO.homepage.description}
 								</div>
+
+								<div className="homepage-socials">
+									<a
+										href={INFO.socials.linkedin}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faLinkedin}
+											className="homepage-social-icon"
+										/>
+									</a>
+									<a
+										href={INFO.socials.github}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faGithub}
+											className="homepage-social-icon"
+										/>
+									</a>
+									<a
+										href={`mailto:${INFO.main.email}`}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faMailBulk}
+											className="homepage-social-icon"
+										/>
+									</a>
+								</div>
 							</div>
 
 							<div className="homepage-first-area-right-side">
@@ -110,39 +143,6 @@ const Homepage = () => {
 									</div>
 								</div>
 							</div>
-						</div>
-
-						<div className="homepage-socials">
-							<a
-								href={INFO.socials.linkedin}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faLinkedin}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faMailBulk}
-									className="homepage-social-icon"
-								/>
-							</a>
 						</div>
 
 						<div className="homepage-projects">
@@ -189,7 +189,7 @@ const Homepage = () => {
 										links={false}
 									/>
 								</span>
-								
+
 								<span className="homepage-works">
 									<HomepageCard
 										title={"Certifications"}

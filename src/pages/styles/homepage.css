@@ -75,6 +75,7 @@
 
 .homepage-after-title {
 	display: flex;
+	padding-bottom: 30px;
 }
 
 .homepage-projects {
@@ -134,6 +135,12 @@ span + span {
 		width: 100% !important;
 		margin-top: 10px;
 		order: 4;
+	}
+
+	.homepage-socials {
+		width: 100% !important;
+		margin-top: 10px;
+		order: 5;
 	}
 
 	.homepage-first-area-right-side {
