@@ -15,7 +15,7 @@ const SEO = [
 
 	{
 		page: "experiences",
-		description: "",
+		description: "These global experiences and opportunities have allowed me to work with people all over the world and well immerse myself in another country's culture and learn from the people there. This expanded worldview, helping me better communicate with and understand people from different backgrounds.",
 		keywords: ["Tristan", "Tristan Chay", "Chay Yu Hung Tristan"],
 	},
 
