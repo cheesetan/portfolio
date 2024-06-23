@@ -35,9 +35,7 @@ function App() {
 
 				{articles.map((article) => (
 					<Route
-						path={getPathnameFromArticleTitle(
-							article().title
-						)}
+						path={getPathnameFromArticleTitle(article())}
 						element={
 							<ReadArticle
 								title={article().title}

@@ -58,7 +58,7 @@ const PersonalDevelopment = () => {
 											color: "dodgerblue",
 											textDecorationLine: "underline",
 										}}
-										to={getPathnameFromArticleTitle(articles[0]().title)}
+										to={getPathnameFromArticleTitle(articles[0]())}
 									>
 										SST Inc.
 									</Link>
@@ -74,7 +74,7 @@ const PersonalDevelopment = () => {
 											color: "dodgerblue",
 											textDecorationLine: "underline",
 										}}
-										to={getPathnameFromArticleTitle(articles[1]().title)}
+										to={getPathnameFromArticleTitle(articles[1]())}
 									>
 										Class Chairperson
 									</Link>{" "}

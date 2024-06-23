@@ -33,7 +33,7 @@ const Notfound = () => {
 							<div className="notfound-title">404 :/</div>
 							<div className="not-found-message">
 								The page "
-								{window.location.pathname.replace("/", "")}"
+								{window.location.pathname}"
 								can't be found. You're either trying to manifest
 								my future or typed the address in wrongly.
 								{/* <br />
