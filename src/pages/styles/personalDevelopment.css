@@ -34,6 +34,7 @@
 }
 
 .about-subtitle {
+	white-space: pre-line;
 	width: 80% !important;
 }
 

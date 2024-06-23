@@ -19,9 +19,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "I'm Tristan Chay. I live in Singapore, where I help to develop the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+		title: "Personal Development",
 	},
 
 	articles: {
@@ -185,6 +183,15 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/KaiTheRedNinja/PenTracker",
+		},
+
+		{
+			title: "StudyLog",
+			description:
+				"StudyLog offers a variety of useful features to enhance the studying experience. These include count-up timers which enable students to monitor their study time effectively, and countdown timers so students can keep track of the amount of time they have left if they are attempting a timed practice paper.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "Read about StudyLog",
+			link: "https://geekbytes.co/swift-student-challenge-2023/",
 		},
 
 		{

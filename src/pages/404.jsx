@@ -14,6 +14,15 @@ const Notfound = () => {
 		document.title = `404 | ${INFO.main.title}`;
 	}, []);
 
+	function getCurrentDate(separator = "-") {
+		let newDate = new Date();
+		let date = newDate.getDate();
+		let month = newDate.toLocaleString("en-US", { month: "long" })
+		let year = newDate.getFullYear();
+
+		return `${date} ${month} ${year}`;
+	}
+
 	return (
 		<React.Fragment>
 			<div className="not-found page-content">
@@ -21,18 +30,18 @@ const Notfound = () => {
 				<div className="content-wrapper">
 					<div className="notfound-container">
 						<div className="notfound-message">
-							<div className="notfound-title">
-								Oops! <FontAwesomeIcon icon={faFaceSadTear} />
-							</div>
+							<div className="notfound-title">404 :/</div>
 							<div className="not-found-message">
-								We can't seem to find the page you're looking
-								for.
-								<br />
+								The page "
+								{window.location.pathname.replace("/", "")}"
+								can't be found. You're either trying to manifest
+								my future or typed the address in wrongly.
+								{/* <br />
 								The requested URL "{window.location.href}" was
-								not found on this server.
+								not found on this server. */}
 							</div>
 							<a href="/" className="not-found-link">
-								Go back to the home page
+								Take me back to reality ({getCurrentDate()})!
 							</a>
 						</div>
 					</div>

@@ -75,11 +75,7 @@
 
 @media (max-width: 500px) {
 	.notfound-message {
-		position: absolute;
-		top: auto;
-		left: auto;
 		width: 100%;
-		transform: none;
 	}
 
 	.notfound-title {
@@ -87,15 +83,14 @@
 	}
 
 	.not-found-message {
-		width: 100%;
+		width: 90%;
 		font-size: 15px;
-		margin-top: 10px;
-		margin-left: -5px;
-		margin-right: 32px;
+		margin-top: 5px;
+		margin-bottom: 30px;
 	}
 
 	.not-found-link {
 		font-size: 15px;
-		padding: 15px 15px;
+		padding: 10px 15px;
 	}
 }
