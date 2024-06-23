@@ -183,7 +183,7 @@ const Homepage = () => {
 							<div>
 								<span className="homepage-works">
 									<HomepageCard
-										title={"Experiences"}
+										title={"Work Attachments"}
 										icon={faBriefcase}
 										data={INFO.work}
 										links={false}
