@@ -7,7 +7,7 @@ import Article from "../components/articles/article";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
+import featuredArticles from "../data/featuredArticles";
 
 import "./styles/articles.css";
 
@@ -43,7 +43,7 @@ const Articles = () => {
 
 						<div className="articles-container">
 							<div className="articles-wrapper">
-							{myArticles
+							{featuredArticles
 									.map((article, index) => (
 										<div
 											className="homepage-article"

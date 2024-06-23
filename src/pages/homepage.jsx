@@ -16,7 +16,7 @@ import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
+import featuredArticles from "../data/featuredArticles";
 
 import "./styles/homepage.css";
 import image from "../assets/homepage.jpg"
@@ -160,7 +160,7 @@ const Homepage = () => {
 								<div className="subtitle homepage-article-section-title">
 									Featured Articles
 								</div>
-								{myArticles
+								{featuredArticles
 									.slice(0, 5)
 									.map((article, index) => (
 										<div

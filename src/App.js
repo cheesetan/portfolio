@@ -8,7 +8,7 @@ import Achievements from "./pages/achievements";
 import Projects from "./pages/projects";
 import Articles from "./pages/articles";
 import Notfound from "./pages/404";
-import articleContents, { getPathnameFromArticleContentTitle } from "./data/articleContent";
+import articles, { getPathnameFromArticleTitle } from "./data/articles";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
@@ -33,9 +33,11 @@ function App() {
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/articles" element={<Articles />} />
 
-				{articleContents.map((article) => (
+				{articles.map((article) => (
 					<Route
-						path={getPathnameFromArticleContentTitle(article().title)}
+						path={getPathnameFromArticleTitle(
+							article().title
+						)}
 						element={
 							<ReadArticle
 								title={article().title}

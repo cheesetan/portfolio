@@ -41,7 +41,7 @@ const Notfound = () => {
 								not found on this server. */}
 							</div>
 							<a href="/" className="not-found-link">
-								Take me back to reality ({getCurrentDate()})!
+								Head back to reality ({getCurrentDate()})
 							</a>
 						</div>
 					</div>

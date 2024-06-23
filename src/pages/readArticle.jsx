@@ -7,7 +7,6 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 
 import INFO from "../data/user";
-import myArticles from "../data/articles";
 
 import "./styles/readArticle.css";
 
