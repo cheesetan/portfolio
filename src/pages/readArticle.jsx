@@ -38,16 +38,16 @@ const ReadArticle = (props) => {
 			<div className="page-content">
 				<div className="content-wrapper">
 					<div className="read-article-container">
-						<div className="read-article-back">
-							<FontAwesomeIcon
-								className="fa-2x"
-								icon={faChevronLeft}
-								alt="back"
-								onClick={() => navigate(-1)}
-							/>
-						</div>
-
 						<div className="read-article-wrapper">
+							<div className="read-article-back">
+								<FontAwesomeIcon
+									className="fa-2x"
+									icon={faChevronLeft}
+									alt="back"
+									onClick={() => navigate(-1)}
+								/>
+							</div>
+
 							{/* <div className="read-article-date-container">
 								<div className="read-article-date">
 									{date}
