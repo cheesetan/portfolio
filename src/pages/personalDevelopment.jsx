@@ -5,6 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Socials from "../components/about/socials";
 import { Link } from "react-router-dom";
+import articleContents, { getPathnameFromArticleContentTitle } from "../data/articleContent";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -57,7 +58,7 @@ const PersonalDevelopment = () => {
 											color: "dodgerblue",
 											textDecorationLine: "underline",
 										}}
-										to="/personal-development/sstinc"
+										to={getPathnameFromArticleContentTitle(articleContents[0]().title)}
 									>
 										SST Inc.
 									</Link>
@@ -73,7 +74,7 @@ const PersonalDevelopment = () => {
 											color: "dodgerblue",
 											textDecorationLine: "underline",
 										}}
-										to="/personal-development/class-chairperson"
+										to={getPathnameFromArticleContentTitle(articleContents[1]().title)}
 									>
 										Class Chairperson
 									</Link>{" "}
