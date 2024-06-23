@@ -28,13 +28,125 @@ const INFO = {
 			"Here are some of the articles that I have been featured in.",
 	},
 
+	awards: [
+		{
+			year: "2023",
+			title: "SST Inc. App of the Year Champion",
+			description:
+				"The SST Inc. App of the Year is awarded by SST Inc. to its employees to recognise apps that make significant contributions to their target communities. My company's app, AttendINC, helped to streamline attendance taking in SST Inc., reducing the workload of our CAOs. AttendINC was also used during SST MUN, allowing the organisers to quickly and securely mark the attendance of guests."
+		},
+
+		{
+			year: "2023",
+			title: "SST Inc. App of the Year 1st Runner Up",
+			description:
+				"The SST Inc. App of the Year is awarded by SST Inc. to its employees to recognise apps that make significant contributions to their target communities. My company's app, Glassroom, is a native Google Classroom client that provides features such as speed improvements, instantaneous loading with cache, and user convenience enhancements."
+		},
+
+		{
+			year: "2024",
+			title: "SST Inventive Mind Award",
+			description:
+				"The SST Inventive Mind Award is given to SST Students who have leveraged the use of technology to turn their idea into a practical and functioning product or app that has helped to positively impact the school community. AttendINC, and its use during SST MUN, was recognised for its efficiency and impact it had on the community, streamlining the process of attendance taking.",
+		},
+	],
+
+	competitions: [
+		{
+			year: "2022",
+			title: "Astrigue 2022",
+			description: "Astrigue is an annual beginner-level Astronomy competition organised by the Astronomy Club of Raffles Institution."
+		},
+
+		{
+			year: "2022",
+			award: "Silver Medal (Physics and Engineering Category)",
+			title: "International Science Project Competition (INTOC)",
+			description: "The International Online Science Competition is an annual competition that gives students the opportunity to showcase their scientific and skills."
+		},
+
+		{
+			year: "2022",
+			award: "3rd Place",
+			title: "Opportunity X Science Fair",
+			description: "The Opportunity X Science Fair contest provides students a platform to showcase their science projects worldwide."
+		},
+
+		{
+			year: "2022",
+			title: "VJC East Zone A*STAR Science Fair",
+			description: "The Fair aims to inspire and foster an interest in STEM amongst secondary students, and allows them to develop an appreciation of the impact of STEM on their life, the environment, and society."
+		},
+
+		{
+			year: "2023",
+			title: "Hack&Roll 2023",
+			description: "Hack&Roll is NUS Hackers' annual 24-hour hackathon, and is the largest student-run hackathon in Singapore."
+		},
+
+		{
+			year: "2023",
+			title: "Perse Coding Team Challenge (Round 1)",
+			description: "The Perse Coding Team Challenge tests students programming skills as they battle it out against the other teams from across the world."
+		},
+
+		{
+			year: "2023",
+			title: "Singapore Science and Engineering Fair (SSEF)",
+			description: "The Singapore Science & Engineering Fair (SSEF) is a national competition organised by the Ministry of Education (MOE), Agency for Science, Technology and Research (A*STAR), and Science Centre Singapore (SCS)."
+		},
+
+		{
+			year: "2023",
+			award: "Winner",
+			title: "Apple WWDC23 Swift Student Challenge",
+			description: "The Swift Student Challenge is an annual challenge that gives student developers the chance to showcase their creativity and coding capabilities through app playgrounds."
+		},
+
+		{
+			year: "2023",
+			title: "Astrigue 2023",
+			description: "Astrigue is an annual beginner-level Astronomy competition organised by the Astronomy Club of Raffles Institution."
+		},
+
+		{
+			year: "2023",
+			title: "ARTC-SIMTech-SST Innovation Camp",
+			description: "The ARTC-SIMTech-SST Innovation Camp is a hackathon formed from the partnership between SST and ARTC, and was themed around recycling in 2023."
+		},
+
+		{
+			year: "2023",
+			title: "IMDA National Youth Tech Championship",
+			description: "National Youth Tech Championship is the flagship competition for the Infocomm Media Club CCA, powered by IMDA. Exclusively for IMC members through IMDA, students are exposed to emerging tech such as first-hand experiences to interact with the technologies and to better understand the real-world applications of tech and media."
+		},
+
+		{
+			year: "2024",
+			title: "SUTD-NP-SST Big D Camp",
+			description: "The Camp allows students with a strong aptitude and passion in Science, Technology, Engineering and Mathematics (STEM) and design to have the opportunity to participate in a design and prototyping workshop under the tutelage of professors and student helpers from SUTD, and was themed around accessibility in 2024."
+		},
+
+		{
+			year: "2024",
+			title: "Apple WWDC24 Swift Student Challenge",
+			description: "The Swift Student Challenge is an annual challenge that gives student developers the chance to showcase their creativity and coding capabilities through app playgrounds."
+		},
+
+		{
+			year: "2024",
+			title: "SST-SMU IDP Technopreuship Hackathon",
+			description: "SST-SMU IDP Technopreuship Hackathon is a hackathon formed from the partnership between SST and SMU, and aims to help SST IDP Students learn and understand more about technopreneurship."
+		},
+	],
+
 	globalExperiences: [
 		{
 			title: "Learning Alliance Beyond Borders (LABB)",
 			country: "Ho Chi Minh City, Vietnam (Virtual)",
 			description:
 				"LABB is a virtual programme where we got to meet with students from all around the world to collaborate on a project together. For my group, we got to meet with people from Vietnam, where we worked on a project to advocate on climate change.",
-			img: labbimg
+			img: labbimg,
 		},
 
 		{
@@ -42,7 +154,7 @@ const INFO = {
 			country: "Jakarta, Indonesia",
 			description:
 				"The SST x BBS IDP IEP is a exchange programme only for students part of the Integrated Diploma Programme (IDP) in SST. Through this IEP, we got to meet and work with our Indonesian counterparts on a project to monitor carbon dioxide levels.",
-			img: bbsimg
+			img: bbsimg,
 		},
 
 		{
@@ -51,7 +163,7 @@ const INFO = {
 			country: "San Francisco, United States of America",
 			description:
 				"#ProjectSF is a 10 day 8 night learning journey to San Francisco, where we got to learn more about Silicon Valley from industry partners and mentors who work there, and got a feel for what it's like to work in San Francisco. ",
-			img: sfimg
+			img: sfimg,
 		},
 	],
 

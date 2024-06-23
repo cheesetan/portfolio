@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import classphoto from "../../assets/2023class.jpg"
 
 import "./styles/experience.css";
 
@@ -12,7 +11,7 @@ const Experience = (props) => {
 	return (
 		<React.Fragment>
 			<div className="experience-item">
-				<Link to={experience.link}>
+				{/* <Link to={experience.link}> */}
 					<div className="experience-item-container">
 						<img src={experience.img} className="experience-item-img" alt="photo" />
 						<div className="experience-item-title">{experience.title}</div>
@@ -22,7 +21,7 @@ const Experience = (props) => {
 						{/* <div className="experience-item-description">
 							{experience.description}
 						</div> */}
-						<div className="experience-item-link">
+						{/* <div className="experience-item-link">
 							<div>
 								Learn More{" "}
 								<FontAwesomeIcon
@@ -30,9 +29,9 @@ const Experience = (props) => {
 									icon={faChevronRight}
 								/>
 							</div>
-						</div>
+						</div> */}
 					</div>
-				</Link>
+				{/* </Link> */}
 			</div>
 		</React.Fragment>
 	);

@@ -9,7 +9,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/achievements.css";
-import image from "../assets/homepage.jpg"
+import AllAchievements from "../components/achievements/allAchievements"
 
 const Achievements = () => {
 	useEffect(() => {
@@ -45,12 +45,16 @@ const Achievements = () => {
 							<div className="subtitle section-header">
 								Awards
 							</div>
-							<div className="card-item">{/* here */}</div>
+							<div>
+								<AllAchievements achievements={INFO.awards} />
+							</div>
 
 							<div className="subtitle section-header">
 								Competitions
 							</div>
-							<div className="card-item">{/* here */}</div>
+							<div>
+								<AllAchievements achievements={INFO.competitions} />
+							</div>
 						</div>
 					</div>
 					{/* <div className="page-footer">
