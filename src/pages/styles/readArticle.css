@@ -27,7 +27,8 @@
 
 .read-article-wrapper {
 	margin: 0px 100px;
-	padding-top: 50px;
+	padding-top: 100px;
+	padding-bottom: 50px;
 }
 
 .read-article-date-container {
@@ -59,5 +60,7 @@
 @media (max-width: 1024px) {
 	.read-article-wrapper {
 		margin: 0px;
+		padding-top: 60px;
+		padding-bottom: 20px;
 	}	
 }
