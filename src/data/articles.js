@@ -2,10 +2,12 @@ import React from "react";
 import sstinc from "../assets/sstinc.jpg"
 import classimg from "../assets/2023class.jpg"
 
+import INFO from "./user";
+
 function sst_incorporated() {
 	return {
 		title: "SST Incorporated",
-		previousPathname: "/experiences/",
+		previousPathname: "/experiences/leadership/",
 		style: `
 			.top-image {
 				width: 100%;
@@ -93,7 +95,7 @@ function sst_incorporated() {
 function class_chairperson() {
 	return {
 		title: "2023 Class Chairperson",
-		previousPathname: "/experiences/",
+		previousPathname: "/experiences/leadership/",
 		style: `
 			.top-image {
 				width: 100%;
@@ -150,10 +152,115 @@ function class_chairperson() {
 	};
 }
 
-const articles = [sst_incorporated, class_chairperson];
+function labb() {
+	return {
+		title: INFO.globalExperiences[0].title,
+		previousPathname: INFO.globalExperiences[0].previousPathname,
+		style: `
+			.top-image {
+				width: 100%;
+				margin-bottom: 15px;
+			}
+
+			.left-image {
+				margin-right: 15px;
+				margin-bottom: 15px;
+				float: left;
+			}
+
+			.right-image {
+				margin-left: 15px;
+				margin-bottom: 15px;
+				float: right;
+			}
+		`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					
+					<div>
+						
+					</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function jakarta_iep() {
+	return {
+		title: INFO.globalExperiences[1].title,
+		previousPathname: INFO.globalExperiences[1].previousPathname,
+		style: `
+			.top-image {
+				width: 100%;
+				margin-bottom: 15px;
+			}
+
+			.left-image {
+				margin-right: 15px;
+				margin-bottom: 15px;
+				float: left;
+			}
+
+			.right-image {
+				margin-left: 15px;
+				margin-bottom: 15px;
+				float: right;
+			}
+		`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					
+					<div>
+						
+					</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function project_sf() {
+	return {
+		title: INFO.globalExperiences[2].title,
+		previousPathname: INFO.globalExperiences[2].previousPathname,
+		style: `
+			.top-image {
+				width: 100%;
+				margin-bottom: 15px;
+			}
+
+			.left-image {
+				margin-right: 15px;
+				margin-bottom: 15px;
+				float: left;
+			}
+
+			.right-image {
+				margin-left: 15px;
+				margin-bottom: 15px;
+				float: right;
+			}
+		`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					
+					<div>
+						
+					</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+const articles = [sst_incorporated, class_chairperson, labb, jakarta_iep, project_sf];
 
 export function getPathnameFromArticleTitle(article) {
-	return String(article.previousPathname) + String(article.title).toLowerCase().replaceAll(" ", "-")
+	return String(article.previousPathname) + String(article.title).toLowerCase().replaceAll(/[^a-zA-Z ]/g, "").replaceAll(" ", "-")
 }
 
 export default articles;
