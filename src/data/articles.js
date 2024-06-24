@@ -2,37 +2,46 @@ import React from "react";
 import sstinc from "../assets/sstinc.jpg"
 import classimg from "../assets/2023class.jpg"
 
+import bbs from "../assets/bbs-article-cover.jpeg"
+
 import INFO from "./user";
 
-function sst_incorporated() {
-	return {
-		title: "SST Incorporated",
-		previousPathname: "/experiences/leadership/",
-		style: `
-			.top-image {
+const style = `
+			.cover-image {
 				width: 100%;
 				margin-bottom: 15px;
 			}
 
-			.left-image {
+			.inline-full-image {
+				width: 100%;
+				margin: 15px 0px;
+			}
+
+			.inline-left-image {
 				margin-right: 15px;
 				margin-bottom: 15px;
 				float: left;
 			}
 
-			.right-image {
+			.inline-right-image {
 				margin-left: 15px;
 				margin-bottom: 15px;
 				float: right;
 			}
-				`,
+`;
+
+function sst_incorporated() {
+	return {
+		title: "SST Incorporated",
+		previousPathname: "/experiences/leadership/",
+		style: style,
 		body: (
 			<React.Fragment>
 				<div>
 					<img
 						src={sstinc}
 						alt="SST Inc."
-						className="top-image"
+						className="cover-image"
 					/>
 					<div className="paragraph">
 						During my time in SST Inc., I leveraged on my expertise
@@ -96,31 +105,14 @@ function class_chairperson() {
 	return {
 		title: "2023 Class Chairperson",
 		previousPathname: "/experiences/leadership/",
-		style: `
-			.top-image {
-				width: 100%;
-				margin-bottom: 15px;
-			}
-
-			.left-image {
-				margin-right: 15px;
-				margin-bottom: 15px;
-				float: left;
-			}
-
-			.right-image {
-				margin-left: 15px;
-				margin-bottom: 15px;
-				float: right;
-			}
-		`,
+		style: style,
 		body: (
 			<React.Fragment>
 				<div className="article-content">
 					<img
 						src={classimg}
 						alt="S304 2023 CNY Class Photo"
-						className="top-image"
+						className="cover-image"
 					/>
 					<div>
 						As Class Chairperson, I helped to bring the class
@@ -156,30 +148,16 @@ function labb() {
 	return {
 		title: INFO.globalExperiences[0].title,
 		previousPathname: INFO.globalExperiences[0].previousPathname,
-		style: `
-			.top-image {
-				width: 100%;
-				margin-bottom: 15px;
-			}
-
-			.left-image {
-				margin-right: 15px;
-				margin-bottom: 15px;
-				float: left;
-			}
-
-			.right-image {
-				margin-left: 15px;
-				margin-bottom: 15px;
-				float: right;
-			}
-		`,
+		style: style,
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					
 					<div>
-						
+						LABB is a virtual programme where we got to meet with
+						students from all around the world to collaborate on a
+						project together. For my group, we got to meet with
+						people from Vietnam, where we worked on a project to
+						advocate on climate change.
 					</div>
 				</div>
 			</React.Fragment>
@@ -191,31 +169,23 @@ function jakarta_iep() {
 	return {
 		title: INFO.globalExperiences[1].title,
 		previousPathname: INFO.globalExperiences[1].previousPathname,
-		style: `
-			.top-image {
-				width: 100%;
-				margin-bottom: 15px;
-			}
-
-			.left-image {
-				margin-right: 15px;
-				margin-bottom: 15px;
-				float: left;
-			}
-
-			.right-image {
-				margin-left: 15px;
-				margin-bottom: 15px;
-				float: right;
-			}
-		`,
+		style: style,
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					
 					<div>
-						
+						The SST x BBS IDP IEP is a exchange programme only for
+						students part of the Integrated Diploma Programme (IDP)
+						in SST. Through this IEP, we got to meet and work with
+						our Indonesian counterparts on a project to monitor
+						carbon dioxide levels.
 					</div>
+
+					<img
+						src={bbs}
+						alt="Photo at BBS PIK"
+						className="inline-full-image"
+					/>
 				</div>
 			</React.Fragment>
 		),
@@ -226,30 +196,16 @@ function project_sf() {
 	return {
 		title: INFO.globalExperiences[2].title,
 		previousPathname: INFO.globalExperiences[2].previousPathname,
-		style: `
-			.top-image {
-				width: 100%;
-				margin-bottom: 15px;
-			}
-
-			.left-image {
-				margin-right: 15px;
-				margin-bottom: 15px;
-				float: left;
-			}
-
-			.right-image {
-				margin-left: 15px;
-				margin-bottom: 15px;
-				float: right;
-			}
-		`,
+		style: style,
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					
 					<div>
-						
+						#ProjectSF is a 10 day 8 night learning journey to San
+						Francisco, where we got to learn more about Silicon
+						Valley from industry partners and mentors who work
+						there, and got a feel for what it's like to work in San
+						Francisco.
 					</div>
 				</div>
 			</React.Fragment>

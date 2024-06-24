@@ -158,8 +158,6 @@ const INFO = {
 		{
 			title: "Learning Alliance Beyond Borders (LABB)",
 			country: "Ho Chi Minh City, Vietnam (Virtual)",
-			description:
-				"LABB is a virtual programme where we got to meet with students from all around the world to collaborate on a project together. For my group, we got to meet with people from Vietnam, where we worked on a project to advocate on climate change.",
 			img: labbimg,
 			previousPathname: "/experiences/global/",
 		},
@@ -167,8 +165,6 @@ const INFO = {
 		{
 			title: "SST x BBS IDP International Exchange Programme (IEP)",
 			country: "Jakarta, Indonesia",
-			description:
-				"The SST x BBS IDP IEP is a exchange programme only for students part of the Integrated Diploma Programme (IDP) in SST. Through this IEP, we got to meet and work with our Indonesian counterparts on a project to monitor carbon dioxide levels.",
 			img: bbsimg,
 			previousPathname: "/experiences/global/",
 		},
@@ -176,8 +172,6 @@ const INFO = {
 		{
 			title: "#ProjectSF",
 			country: "San Francisco, United States of America",
-			description:
-				"#ProjectSF is a 10 day 8 night learning journey to San Francisco, where we got to learn more about Silicon Valley from industry partners and mentors who work there, and got a feel for what it's like to work in San Francisco. ",
 			img: sfimg,
 			previousPathname: "/experiences/global/",
 		}
