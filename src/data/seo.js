@@ -2,7 +2,7 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I'm a 15 year old developer from Singapore. I help to mentor juniors at Swift Accelerator Programme, guiding them in their iOS App Development journey. Additionally, I am also one of 350 winners worldwide in Apple's WWDC23 Swift Student Challenge, and I am Apple App Development with Swift Associate certified too.",
+			"I'm a 16 year old developer from Singapore. I help to mentor juniors at Swift Accelerator Programme, guiding them in their iOS App Development journey. Additionally, I am also one of 350 winners worldwide in Apple's WWDC23 Swift Student Challenge, and I am Apple App Development with Swift Associate certified too.",
 		keywords: ["Tristan", "Tristan Chay", "Chay Yu Hung Tristan"],
 	},
 
