@@ -183,8 +183,8 @@ const INFO = {
 			description:
 				"ExiSST is a secure, private, and verifiable way of taking attendance through the use of a refreshing QR Code and Google Sheets integration.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
-			linkText: "View Project",
-			link: "https://github.com/attendinc-group/exisst",
+			linkText: "View on App Store",
+			link: "https://apps.apple.com/sg/app/exisst/id6504036475",
 		},
 
 		{
@@ -248,8 +248,8 @@ const INFO = {
 			description:
 				"ExiSST is a secure, private, and verifiable way of taking attendance through the use of a refreshing QR Code and Google Sheets integration.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
-			linkText: "View Project",
-			link: "https://github.com/attendinc-group/exisst",
+			linkText: "View on App Store",
+			link: "https://apps.apple.com/sg/app/exisst/id6504036475",
 		},
 
 		{
